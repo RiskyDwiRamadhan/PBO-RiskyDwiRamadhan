@@ -18,6 +18,11 @@ public class Demo {
         leptop l = new leptop();
         tas t = new tas();
         
+        System.out.println("Nama  : Risky Dwi Ramadhan");
+        System.out.println("Kelas : TI-2C");
+        System.out.println("");
+        System.out.println("");
+        
         //Sepatu Bola        
         ssb.setMerek("Specs Accelerator");
         ssb.setMaterial("Rubber(karet)");
