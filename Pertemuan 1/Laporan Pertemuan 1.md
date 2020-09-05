@@ -1,4 +1,5 @@
-Kode program leptop
+# Laporan Praktikum Pemrograman Berbasis Objek
+## Kode program leptop
 
 public class leptop {    
     private String merek,warna,prosesor;
@@ -23,7 +24,7 @@ public class leptop {
 }
 
 
-Kode program tas
+## Kode program tas
 
 public class tas {    
     private String jenisTas,warna;    
@@ -49,7 +50,7 @@ public class tas {
 }
 
 
-Kode program sepatu
+## Kode program sepatu
 
 public class sepatu {
     private String merek,warna,material;    
@@ -74,7 +75,7 @@ public class sepatu {
 }
 
 
-Kode program sepatu lari
+## Kode program sepatu lari
 
 public class Sepatulari extends sepatu{        
     private String tahan;    
@@ -90,7 +91,7 @@ public class Sepatulari extends sepatu{
 }
 
 
-Kode program sepatu sepak bola
+## Kode program sepatu sepak bola
 
 public class SepatuSepakBola extends sepatu{    
     private String tali;   
@@ -105,7 +106,7 @@ public class SepatuSepakBola extends sepatu{
 }
 
 
-Kode program demo program
+## Kode program demo program
 
 public class Demo {
 
@@ -153,6 +154,12 @@ public class Demo {
     
 }
 
-Output Program
+## Output Program
+Hasil dari identifikasi dari benda-benda disekitar saya, Saya menemukan beberapa benda yang menurut saya sesuai untuk dilaporkan sebagai tugas praktikum.
+Benda yang dimaksuk yakni:
+1. Sepatu lari
+2. Sepatu Sepak Bola
+3. Leptop
+4. Tas
 
 <img src="image/Output.png" />
