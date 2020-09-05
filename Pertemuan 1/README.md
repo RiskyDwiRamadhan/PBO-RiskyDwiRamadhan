@@ -47,4 +47,9 @@ public class tas {
         System.out.println("Harga: Rp." +harga);
     }
 }
+
+
+
+
+
 <img src="image/Output.png" />
