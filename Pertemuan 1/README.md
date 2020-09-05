@@ -28,4 +28,5 @@ public class leptop {
         System.out.println("Prosesor: "+prosesor);
     }
 }
+
 <img src="image/Output.png" />
