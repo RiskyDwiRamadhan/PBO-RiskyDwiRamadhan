@@ -12,6 +12,14 @@ package tugas2;
  */
 public class TestProgram {
     public static void main(String[] args) {
+        
+
+        System.out.println("=============================");
+        System.out.println("=Nama  : Risky Dwi Ramadhan =");
+        System.out.println("=Kelas : TI-2C              =");
+        System.out.println("=============================");
+        System.out.println("");
+        
         //peminjaman
         Peminjaman p =new Peminjaman();
         System.out.println("=============================");
