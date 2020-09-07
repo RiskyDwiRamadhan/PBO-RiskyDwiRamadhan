@@ -1,7 +1,9 @@
 # Laporan Tugas 2
 ## Kode Program Peminjaman
 public class Peminjaman {
+
     public String id,namaMember,namaGame;
+    
     public int hargaGame,lamaSewa;
     
     public void tampilData(){
@@ -35,8 +37,11 @@ public class Lingkaran {
 }
 ## Kode Program Barang
 public class Barang {
+
     public String kode,namaBarang;
+    
     public int hargaDasar;
+    
     public float diskon;
     
     public void tampilData(){
@@ -54,6 +59,7 @@ public class Barang {
 }
 ## Kode Program TestProgram
 public class TestProgram {
+
     public static void main(String[] args) {
         
 
