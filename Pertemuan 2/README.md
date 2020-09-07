@@ -120,4 +120,4 @@ public class TestProgram {
 
 ## Output Program
 
-<img src="image/Output.png" />
+<img src="Image/Output.png" />
