@@ -121,4 +121,4 @@ public class TestProgram {
 ## Output Program
 
 <img src="Image/Output.png" />
-<img src="Image/peminjaman.png" />
+<img src="Image/peminjaman.jpg" />
