@@ -16,5 +16,17 @@ public class Dosen {
    public String no_telpDosen;
 
 }
-
+## class Diagram Dosen
 <img src="image/dosen.png" />
+
+## class Mahasaiswa
+## class Diagram Mahasaiswa
+<img src="image/mahasiswa.png" />
+
+## class Nilai
+## class Diagram Nilai
+<img src="image/nilai.png" />
+
+## class Mata Kuliah
+## class Diagram Mata Kuliah
+<img src="image/mataKuliah.png" />
