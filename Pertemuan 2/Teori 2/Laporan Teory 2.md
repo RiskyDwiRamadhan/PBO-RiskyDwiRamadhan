@@ -1,3 +1,5 @@
+# Laporan Tugas Teori 2
+
 # Latihan 1
 1.) ada 4 class yang bisa dibuat dari masalah tersebut yakni:class Dosen, Mahasiswa, MataPelajaran, dan Nilai
 2.
@@ -21,7 +23,7 @@
 ## Class Diagram Mata Kuliah
 <img src="image/namaPerlajaran.png" />
 
-## Latihan 2
+# Latihan 2
 ## Class Diagram Dosen
 <img src="image/dosen.png" />
 
@@ -34,7 +36,7 @@
 ## Class Diagram Mata Kuliah
 <img src="image/namaPerlajaran.png" />
 
-## Latihan 3
+# Latihan 3
 ## Class Persegi
 <img src="image/5.png" />
 ## Class Diagram Persegi
