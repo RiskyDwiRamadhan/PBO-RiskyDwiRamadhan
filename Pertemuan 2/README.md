@@ -1,4 +1,4 @@
-# Laporan Tugas 2
+# Laporan Praktikum Tugas 2
 ## Kode Program Peminjaman
 public class Peminjaman {
 
