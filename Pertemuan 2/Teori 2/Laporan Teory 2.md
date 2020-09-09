@@ -29,4 +29,4 @@ public class Dosen {
 
 ## class Mata Kuliah
 ## class Diagram Mata Kuliah
-<img src="image/mataPelajaran.png" />
+<img src="image/namaPerlajaran.png" />
