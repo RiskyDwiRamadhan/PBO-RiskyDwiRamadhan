@@ -121,4 +121,6 @@ public class TestProgram {
 ## Output Program
 
 <img src="Image/Output.png" />
+
+## Class Diagram No 1
 <img src="Image/peminjaman.jpg" />
