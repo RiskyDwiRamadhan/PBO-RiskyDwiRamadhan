@@ -17,4 +17,4 @@ public class Dosen {
 
 }
 
-<img src="Teori 2/image/dosen.png" />
+<img src="image/dosen.png" />
