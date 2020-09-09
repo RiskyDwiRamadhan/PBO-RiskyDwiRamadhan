@@ -1,4 +1,4 @@
-## Latihan 1
+# Latihan 1
 1.) ada 4 class yang bisa dibuat dari masalah tersebut yakni:class Dosen, Mahasiswa, MataPelajaran, dan Nilai
 2.
 ## Class Dosen
