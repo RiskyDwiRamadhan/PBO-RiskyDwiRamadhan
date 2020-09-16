@@ -2,6 +2,7 @@
     1.
 <img src="img/3.png" />
     2. karena pada method setAge diberikan kondisi dimana jika age > 30 maka age akan disimpan dengan nilai 30.
+    
     3.
 <img src="img/4.png" />
     4.
