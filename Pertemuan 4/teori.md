@@ -1,3 +1,3 @@
-## Class Diagram Mamalia
+# Class Diagram Mamalia
 
 <img src="img/mamalia.jpeg" />
