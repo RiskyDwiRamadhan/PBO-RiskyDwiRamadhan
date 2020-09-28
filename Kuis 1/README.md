@@ -1,6 +1,6 @@
 ## Class Diagram
 
-<img src="image/Kuis1.png" />
+<img src="image/Kuis 1.png" />
 
 ## Output
-<img src="image/Output.png" />
+<img src="image/output.png" />
