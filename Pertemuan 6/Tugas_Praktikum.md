@@ -1,12 +1,15 @@
 # Percobaan 
 ## Percobaan 1
 
-<img src="img/c.png" />
+<img src="img/c1.png" />
 
 1. Pada percobaan 1 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga
 program tersebut bisa dijalankan dan tidak error!
 
 *Jawaban :*
+
+<img src="img/p1.png" />
+
 
 
 2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
@@ -16,6 +19,9 @@ program tersebut bisa dijalankan dan tidak error!
 Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bisa mengakses atribut public dari classA. 
 
 ## Percobaan 2
+
+<img src="img/c2.png" />
+
 1. Pada percobaan 2 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga
 program tersebut bisa dijalankan dan tidak error!
 
@@ -28,6 +34,9 @@ program tersebut bisa dijalankan dan tidak error!
 Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bisa mengakses atribut dari classA. 
 
 ## Percobaan 3
+
+<img src="img/c3.png" />
+
 1. Jelaskan fungsi “super” pada potongan program berikut di class Tabung!
 
 *Jawaban*
@@ -48,6 +57,9 @@ Karena pada class Tabung telah mewarisi atribut phi dan r dari class Bangun Sehi
 
 
 ## Percobaan 4
+
+<img src="img/c4.png" />
+
 1. Pada percobaan 4 sebutkan mana class yang termasuk superclass dan subclass, kemudian
 jelaskan alasannya!
 
