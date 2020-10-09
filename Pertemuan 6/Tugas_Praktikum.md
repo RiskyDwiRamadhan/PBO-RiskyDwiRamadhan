@@ -11,10 +11,9 @@ program tersebut bisa dijalankan dan tidak error!
 <img src="img/c1.png" />
 
 
-
 2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
 
-*Jawaban*
+*Jawaban :*
 
 Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bisa mengakses atribut public dari classA. 
 
@@ -27,6 +26,9 @@ Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bi
 program tersebut bisa dijalankan dan tidak error!
 
 *Jawaban*
+
+<img src="img/c2.png" />
+
 
 2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
 
