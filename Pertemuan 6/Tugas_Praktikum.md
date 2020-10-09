@@ -94,3 +94,6 @@ subclass : ClassB subclass dari ClassA dan ClassC subclass dari ClassB.
 
 ## Class Main Program
 <img src="img/t.png" />
+
+## Class Output Program
+<img src="img/o.png" />
