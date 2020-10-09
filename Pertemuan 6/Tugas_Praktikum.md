@@ -1,14 +1,14 @@
 # Percobaan 
 ## Percobaan 1
 
-<img src="img/c1.png" />
+<img src="img/o1.png" />
 
 1. Pada percobaan 1 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga
 program tersebut bisa dijalankan dan tidak error!
 
 *Jawaban :*
 
-<img src="img/p1.png" />
+<img src="img/c1.png" />
 
 
 
@@ -20,7 +20,8 @@ Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bi
 
 ## Percobaan 2
 
-<img src="img/c2.png" />
+<img src="img/o1.png" />
+
 
 1. Pada percobaan 2 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga
 program tersebut bisa dijalankan dan tidak error!
@@ -35,7 +36,8 @@ Karena pada ClassB kurang menambahkan extends ClassA pada class tersebut agar bi
 
 ## Percobaan 3
 
-<img src="img/c3.png" />
+<img src="img/o2.png" />
+
 
 1. Jelaskan fungsi “super” pada potongan program berikut di class Tabung!
 
@@ -58,7 +60,8 @@ Karena pada class Tabung telah mewarisi atribut phi dan r dari class Bangun Sehi
 
 ## Percobaan 4
 
-<img src="img/c4.png" />
+<img src="img/o3.png" />
+
 
 1. Pada percobaan 4 sebutkan mana class yang termasuk superclass dan subclass, kemudian
 jelaskan alasannya!
