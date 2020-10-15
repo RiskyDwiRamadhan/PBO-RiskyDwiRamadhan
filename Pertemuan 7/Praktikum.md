@@ -30,22 +30,22 @@
 5. karena pada class StaffHarian telah mewarisi atribut dari class Staff sehingga pada class StaffHarian tidak perlu melakukan deklarasi lago dan hanya tingal mengakses atribut itu pada class Staff.
 
 # Tugas
-## Class 
+## Class Komputer
 <img src="img/t1.png" />
 
-## Class 
+## Class leptop
 <img src="img/t2.png" />
 
-## Class 
+## Class pc
 <img src="img/t3.png" />
 
-## Class 
+## Class mac
 <img src="img/t4.png" />
 
-## Class 
+## Class windows
 <img src="img/t5.png" />
 
-## Class 
+## Class main class
 <img src="img/m.png" />
 
 ## Output Program
