@@ -1,15 +1,15 @@
 # UTS
 ## CLASS KERAJINAN
-<img src="image/1.png" />
+<img src="img/1.png" />
 
-## CLASS KERAJINAN
-<img src="image/2.png" />
+## CLASS TOPENG
+<img src="img/2.png" />
 
-## CLASS KERAJINAN
-<img src="image/3.png" />
+## CLASS ORNAMEN
+<img src="img/3.png" />
 
-## CLASS KERAJINAN
-<img src="image/4.png" />
+## CLASS KERAJINAN DEMO
+<img src="img/4.png" />
 
 ## OUTPUT PROGRAM
-<img src="image/O.png" />
+<img src="img/O.png" />
