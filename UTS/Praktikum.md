@@ -12,4 +12,4 @@
 <img src="img/4.png" />
 
 ## OUTPUT PROGRAM
-<img src="img/O.png" />
+<img src="img/o.png" />
