@@ -29,7 +29,7 @@
 <img src="img/1.png" />
 
 ## Class MainClass
-<img src="img/5.png" />
+<img src="img/6.png" />
 
 # Output Program
 <img src="img/o6.png" />
@@ -45,7 +45,7 @@
 <img src="img/4.png" />
 
 ## Class MainClass
-<img src="img/6.png" />
+<img src="img/5.png" />
 
 # Output Program
 <img src="img/o7.png" />
