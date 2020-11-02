@@ -10,10 +10,8 @@ bergerak()yang dideklarasikan dalam Class Ikan
 
 ## Jawaban
 1. Alur program tersebut adalah  
-  a. Program melakukan proses intansiasi objek terhadap class - class yang inggin digunakan.
-  
-  b. Kemudian mengeksekusi method pelihaanHewan() yang ada pada class orang
-  
+  a. Program melakukan proses intansiasi objek terhadap class - class yang inggin digunakan.  
+  b. Kemudian mengeksekusi method pelihaanHewan() yang ada pada class orang.  
   c. Lalu mengeksekusi method ajakPelihaanJalanJalan() untuk menampilkan data yang telah didapatkan.  
 2. a. Output Program
 <img src="img/o1.png" /> 
