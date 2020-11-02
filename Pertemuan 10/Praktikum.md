@@ -16,9 +16,11 @@ bergerak()yang dideklarasikan dalam Class Ikan
 2. a. Output Program
 <img src="img/o1.png" /> 
    b. Method bergerak diubah menjadi method abstract pada class Hewan dan Method ini nantinya akan di-override oleh class yang menjadi class turunannya.
+
 3. a. Output Program
 <img src="img/o1.png" /> 
    b. Jika tidak dilakukan proses overriding maka tidak ada output yang akan di tampilkan karena tidak ada method yang spesifik dalam class tersebut saat proses pemanggilan method.
+
 4. a. Output Program
 <img src="img/o1.png" /> 
    b. Dalam class Ikan method bergerak() dideklarasikan kembali dan menambahkan isi didalam nya untuk ditampilkan. 
