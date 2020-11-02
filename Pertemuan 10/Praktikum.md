@@ -23,5 +23,5 @@ bergerak()yang dideklarasikan dalam Class Ikan
 
 4. a. Output Program
 <img src="img/o1.png" /> 
-   b. Dalam class Ikan method bergerak() dideklarasikan kembali dan menambahkan isi didalam nya untuk ditampilkan. 
+   b. Dalam class Ikan method bergerak() dideklarasikan kembali dan menambahkan isi didalam nya untuk ditampilkan yaitu System.out.println("Berenang dengan Sirip, \"Wush..wush\"");. 
 
