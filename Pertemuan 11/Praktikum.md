@@ -48,6 +48,7 @@ Memanggil method kuliahDiKampus()
 dibawah ini :(diubah menjadi protected)
 
 Jawab : terjadi error karena tidak diperbolehan untuk menjadi protected,jika digunakan protected maka tidak bisa mengimplement ke class yang lain
+
 <img src="img/2.png" />
 
 2.Jelaskan menurut anda, mengapa hasil dari script code tersebut error ?
@@ -58,8 +59,9 @@ Jawab : karena classnya IBerprestasi adalah class interface jadi tidak bisa di i
 pada aplikasi Anda agar di class Program objek pakRektor dapat memberikan sertifikat 
 mawapres pada objek sarjanaCumlaude
 
-Jawab= pertama menambahkan implements method pada class Sarjana dan Prasarjana yang sebelumnya pada class interface IBerprestasi sudah
+Jawab : pertama menambahkan implements method pada class Sarjana dan Prasarjana yang sebelumnya pada class interface IBerprestasi sudah
 ada method menjuaraiKompetisi dan MembuatPublikasiIlmiah dan diisi setiap method tersebut dengan value yang dinginkan
+
 <img src="img/3.png" />
 
 <img src="img/o4.png" />
