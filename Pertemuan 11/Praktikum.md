@@ -22,8 +22,15 @@ Jawab : tidak bisa, Karena class Rektor bukan merupakan class turunan dari class
 
 6.Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi 
 class Program menjadi seperti berikut ini:
-Jawab : Tinggal memangil method kuliahDiKampus() pada class Sarjana dan class PascaSarjana
+Jawab : 
+
+Menambahkan method abstract kuliahDiKampus() pada class ICumlaude
+
 <img src="img/1.png" />
+
+Memanggil method kuliahDiKampus()
+
+<img src="img/4.png" />
 
 <img src="img/o2.png" />
 
