@@ -65,3 +65,33 @@ ada method menjuaraiKompetisi dan MembuatPublikasiIlmiah dan diisi setiap method
 <img src="img/3.png" />
 
 <img src="img/o4.png" />
+
+# Tugas
+## Class Diagram
+<img src="img/uml.png" />
+
+## Kode Program
+
+## Class Karnivora
+<img src="img/t1.png" />
+
+## Class Herbivora
+<img src="img/t2.png" />
+
+## Class Binatang
+<img src="img/t3.png" />
+
+## Class Singa
+<img src="img/t4.png" />
+
+## Class Gorila
+<img src="img/t5.png" />
+
+## Class Keledai
+<img src="img/t6.png" />
+
+## Class MainProgram
+<img src="img/t7.png" />
+
+## OutPut Program
+<img src="img/o5.png" />
