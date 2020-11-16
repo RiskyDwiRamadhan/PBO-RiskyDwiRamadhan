@@ -31,9 +31,10 @@ Dan objek eBill (merupakan objek dari class ElectricityBill) bukan merupakan cla
 
 Jawaban : Kesimpulannya konsep dasar polimorfisme bisa ketika terjadi proses inheritance maupun interface.
 
+## Percobaan 2
+
 <img src="img/o1.png" />
 
-## Percobaan 2
 ### Pertanyaan
 1. Perhatikan class Tester2 di atas, mengapa pemanggilan e.getEmployeeInfo() pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10 menghasilkan hasil sama?
 
@@ -64,9 +65,10 @@ Jawaban : Karena kedua objek tersebut adalah objek yang telah menggimplementasik
 
 Jawaban : Karena ada objek yang bukan merupakan objek turunan dari objek Employee yaitu objek ElectricityBill(eBill).
 
+## Percobaan 4
+
 <img src="img/o2.png" /> 
 
-## Percobaan 4
 ### Pertanyaan
 1. Perhatikan class Tester4 baris ke-7 dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari
 ElectricityBill dan pEmp merupakan objek dariPermanentEmployee?
