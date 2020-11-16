@@ -29,6 +29,8 @@ Dan objek eBill (merupakan objek dari class ElectricityBill) bukan merupakan cla
 
 6. Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
 
+Jawaban : Kesimpulannya konsep dasar polimorfisme bisa ketika terjadi proses inheritance maupun interface.
+
 <img src="img/o1.png" />
 
 ## Percobaan 2
@@ -44,6 +46,9 @@ Dan pemanggilan method e.getEmployeeInfo() tidak lagi memanggil method getEmploy
 Sedangkan untuk pEmp.getEmployeeInfo() langsung memanggil pada class PermanentEmployee.
 
 3. Jadi apakah yang dimaksud dari virtual method invocation? Mengapa disebut virtual?
+
+Jawaban : Virtual method invocation terjadi ketika ada pemanggilan overriding method dari suatu objek polimorfisme. Disebut virtual karena antara method yang dikenali
+oleh compiler dan method yang dijalankan oleh JVM berbeda.
 
 ## Percobaan 3
 ## Pertanyaan
