@@ -1,6 +1,6 @@
 # Percobaan
 ## Percobaan 1
-## Pertanyaan
+### Pertanyaan
 1. Class apa sajakah yang merupakan turunan dari class Employee?
 
 Jawaban : Class turunan dari class Employee adalah Class InternshipEmployee dan Class PermanentEmployee.
@@ -34,7 +34,7 @@ Jawaban : Kesimpulannya konsep dasar polimorfisme bisa ketika terjadi proses inh
 <img src="img/o1.png" />
 
 ## Percobaan 2
-## Pertanyaan
+### Pertanyaan
 1. Perhatikan class Tester2 di atas, mengapa pemanggilan e.getEmployeeInfo() pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10 menghasilkan hasil sama?
 
 Jawaban : Karena e (class Employee) telah dideklarasikan menjadi pEmp (class PermanentEmployee).
@@ -51,7 +51,7 @@ Jawaban : Virtual method invocation terjadi ketika ada pemanggilan overriding me
 oleh compiler dan method yang dijalankan oleh JVM berbeda.
 
 ## Percobaan 3
-## Pertanyaan
+### Pertanyaan
 1. Perhatikan array e pada baris ke-8, mengapa ia bisa diisi dengan objekobjek dengan tipe yang berbeda, yaitu objek pEmp (objek dari PermanentEmployee) dan objek iEmp (objek dari InternshipEmployee) ?
 
 Jawaban : Karena kedua objek tersebut adalah objek turunan dari objek Employee(e).
@@ -67,7 +67,7 @@ Jawaban : Karena ada objek yang bukan merupakan objek turunan dari objek Employe
 <img src="img/o2.png" /> 
 
 ## Percobaan 4
-## Pertanyaan
+### Pertanyaan
 1. Perhatikan class Tester4 baris ke-7 dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari
 ElectricityBill dan pEmp merupakan objek dariPermanentEmployee?
 
