@@ -90,3 +90,42 @@ Jawaban : Untuk mengecek apakah objek ElectricityBill merupakan hasil instansias
 5. Perhatikan kembali class Owner baris ke-7, untuk apakah casting objek disana (ElectricityBill eb = (ElectricityBill) p) diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting kedalam objek eb yang bertipe ElectricityBill ?
 
 Jawaban : untuk mengubah tipe dari objek Payable(p) menjadi ElectricityBill(eb). Mengapa harus harus di-casting agar bisa menggakses/menggunakan method yang berada pada class ElectricityBill(eb).
+
+# Tugas 
+
+## Kode Program
+### Class Plant
+
+<img src="img/1.png" /> 
+
+### Class Destroyable
+
+<img src="img/2.png" /> 
+
+### Class Zombie
+
+<img src="img/3.png" /> 
+
+### Class WalkingZombie
+
+<img src="img/4.1.png" /> 
+
+<img src="img/4.2.png" /> 
+
+### Class JumpingZombie
+
+<img src="img/5.1.png" /> 
+
+<img src="img/5.2.png" /> 
+
+### Class Barrier
+
+<img src="img/6.png" /> 
+
+### Class Main
+
+<img src="img/7.png" /> 
+
+## Output Program
+
+<img src="img/o3.png" /> 
