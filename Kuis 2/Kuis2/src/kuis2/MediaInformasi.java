@@ -35,7 +35,7 @@ public class MediaInformasi implements Penerbit{
     @Override
     public void tahunBerdiri(int tahun) {
         System.out.println("Penerbit ini berdiri pada tahun "+tahun+", "
-                + "sehingga Penerbit ini sekarang berusia: "+(tahunSekarang-tahun));
+                + "sehingga Penerbit ini sekarang berusia: "+(tahunSekarang-tahun)+" tahun");
     }
     
 }
