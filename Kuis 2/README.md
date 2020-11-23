@@ -1,26 +1,26 @@
 # Kode Program
 ## Class Penerbit
 
-<img src="image/1.png" />
+<img src="img/1.png" />
 
 ## Class MediaInformasi
 
-<img src="image/2.png" />
+<img src="img/2.png" />
 
 ## Class Majala
 
-<img src="image/3.png" />
+<img src="img/3.png" />
 
 ## Class Buku
 
-<img src="image/4.png" />
+<img src="img/4.png" />
 
 ## Class TestClass
 
-<img src="image/5.1.png" />
+<img src="img/5.1.png" />
 
-<img src="image/5.2.png" />
+<img src="img/5.2.png" />
 
 # Output Program
 
-<img src="image/o.png" />
+<img src="img/o.png" />
