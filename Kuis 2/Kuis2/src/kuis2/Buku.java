@@ -15,7 +15,8 @@ public class Buku extends MediaInformasi{
         System.out.println("Buku ini memiliki "+jml+" halaman");
         super.jmlHalaman = jml+4;
         System.out.println("Jika dihitung dengan cover, maka jumlah halaman "
-                + "dari buku tersebut: "+jmlHalaman+" halaman");
+                + "dari buku tersebut: "+jmlHalaman+" halaman, "
+                + "lebih tebal daripada majalah karena terdapat cover dalam dan cover luar");
     }
 
     @Override
