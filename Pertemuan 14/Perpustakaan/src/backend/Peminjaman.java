@@ -119,25 +119,23 @@ public class Peminjaman {
     
     public ArrayList<Peminjaman> getAll(){
         ArrayList<Peminjaman> listPinjam = new ArrayList();
-        ResultSet rs = DBHelper.selectQuery("select p.idpeminjaman, a.idanggota, a.nama, "
-                                          + "b.idbuku, b.judul, p.tanggalpinjam, p.tanggalkembali "
-                                          + "from peminjaman p "
-                                          + "left join anggota a on p.idanggota = a.idanggota "
-                                          + "left join buku b on p.idbuku= b.idbuku");
+        ResultSet rs = DBHelper.selectQuery("select * from peminjaman");
         try {
-            while (rs.next()){
-                Peminjaman pinjam = new Peminjaman();
-                pinjam.setIdPeminjaman(rs.getInt("idpeminjaman"));
-                pinjam.setIdAnggota(rs.getInt("idanggota"));
-                pinjam.setIdBuku(rs.getInt("idbuku"));
-                pinjam.setTglPinjam(rs.getString("tanggalpinjam"));
-                pinjam.setTglKembali(rs.getString("tanggalkembali"));
+            while (rs.next()) {
+                Peminjaman pem = new Peminjaman();
+                pem.setIdPeminjaman(rs.getInt("idpeminjaman"));
+                pem.setIdAnggota(rs.getInt("idanggota"));
+                pem.setIdBuku(rs.getInt("idbuku"));
+                pem.setTglPinjam(rs.getString("tanggalpinjam"));
+                pem.setTglKembali(rs.getString("tanggalkembali"));
+                
+                listPinjam.add(pem);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
         return listPinjam;
-    }
+    }      
     
     public ArrayList<Peminjaman> searchAnggota(String keyword){
         ArrayList<Peminjaman> listAnggota = new ArrayList();
