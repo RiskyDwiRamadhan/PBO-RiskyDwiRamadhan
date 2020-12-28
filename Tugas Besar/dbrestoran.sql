@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 28 Des 2020 pada 06.24
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.1
+-- Generation Time: 28 Des 2020 pada 07.03
+-- Versi Server: 10.1.25-MariaDB
+-- PHP Version: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbleptop`
 --
+CREATE DATABASE IF NOT EXISTS `dbleptop` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `dbleptop`;
 
 -- --------------------------------------------------------
 
@@ -45,17 +47,17 @@ CREATE TABLE `leptop` (
 --
 
 INSERT INTO `leptop` (`idleptop`, `idspesifikasi`, `merek`, `os`, `warna`, `bobot`, `ketebalan`, `harga`, `stok`) VALUES
-(201, 1, 'Asus', 'Windows', 'hitam', 2, 3, 15000000, 3),
-(202, 11, 'acer', 'windows', 'silver', 3, 3, 11500000, 2),
-(203, 3, 'asus', 'windows', 'hitam mate', 2, 2, 7800000, 4),
-(204, 10, 'lenovo', 'windows', 'mate black', 3, 3, 9800000, 5),
-(205, 2, 'asus', 'windows', 'putih', 3, 3, 5800000, 2),
-(206, 4, 'hp', 'windows', 'silver', 2, 3, 6590000, 3),
-(207, 5, 'acer', 'windows', 'biru', 3, 4, 7200000, 4),
-(208, 6, 'msi', 'windows', 'hitam', 3, 2, 16900000, 7),
-(209, 7, 'lenovo', 'windows', 'putih', 2, 3, 7980000, 2),
-(210, 8, 'hp', 'windows', 'black mate', 3, 3, 10100000, 1),
-(211, 9, 'asus', 'windows', 'coral blue', 3, 3, 8950000, 2);
+(201, 1, 'Asus', 'Windows', 'hitam', 0, 3, 15000000, 3),
+(202, 11, 'acer', 'windows', 'silver', 0, 3, 11500000, 2),
+(203, 3, 'asus', 'windows', 'hitam mate', 0, 2, 7800000, 4),
+(204, 10, 'lenovo', 'windows', 'mate black', 3, 0, 9800000, 5),
+(205, 2, 'asus', 'windows', 'putih', 0, 3, 5800000, 2),
+(206, 4, 'hp', 'windows', 'silver', 0, 3, 6590000, 3),
+(207, 5, 'acer', 'windows', 'biru', 0, 4, 7200000, 4),
+(208, 6, 'msi', 'windows', 'hitam', 3, 0, 16900000, 7),
+(209, 7, 'lenovo', 'windows', 'putih', 2, 0, 7980000, 2),
+(210, 8, 'hp', 'windows', 'black mate', 3, 0, 10100000, 1),
+(211, 9, 'asus', 'windows', 'coral blue', 3, 0, 8950000, 2);
 
 -- --------------------------------------------------------
 
@@ -134,37 +136,37 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `alamat`, `telepon`, `user`, `pass`, `status`) VALUES
-(101, 'Hendra', 'Malang', '0895498112222', 'hendra1', '121212', 'mahasiswa'),
-(102, 'agil', 'sumenep', '0895391228336', 'agil2', '123123', 'mahasiswa'),
-(103, 'yanto', 'surabaya', '0874653882766', 'yanto3', '112233', 'mahasiswa'),
-(104, 'asep', 'sidoarjo', '086575647457', 'asep123', 'asep123', 'karyawan toko'),
-(105, 'mulyadi ', 'sidoarjo', '0874675657446', 'mulyadi12', 'mulyadi123', 'karyawan toko'),
-(106, 'risqon', 'malang', '087658464545', 'riskon123', 'riskon123', 'pelajar'),
-(107, 'levi', 'malang', '087464756575', 'levi123', 'levi123', 'pelajar'),
-(108, 'boby', 'tuban', '089757464757', 'boby123', 'boby123', 'pelajar'),
-(109, 'irur', 'probolinggo', '08657567565', 'irur1234', 'irur1234', 'pegawai swasta'),
-(110, 'amar', 'bandung', '08558557453', 'amar124', 'amar124', 'wirausaha'),
-(111, 'kiki', 'bogor', '0896467565474', 'kiki1234', 'kiki123', 'pelajar');
+(101, 'Hendra', 'Malang', '0895498112222', 'hendra1', '121212', 'Customer'),
+(102, 'agil', 'sumenep', '0895391228336', 'agil2', '123123', 'Customer'),
+(103, 'yanto', 'surabaya', '0874653882766', 'yanto3', '112233', 'Customer'),
+(104, 'asep', 'sidoarjo', '086575647457', 'asep123', 'asep123', 'Karyawan'),
+(105, 'mulyadi ', 'sidoarjo', '0874675657446', 'mulyadi12', 'mulyadi123', 'Karyawan'),
+(106, 'risqon', 'malang', '087658464545', 'riskon123', 'riskon123', 'Customer'),
+(107, 'levi', 'malang', '087464756575', 'levi123', 'levi123', 'Customer'),
+(108, 'boby', 'tuban', '089757464757', 'boby123', 'boby123', 'Customer'),
+(109, 'irur', 'probolinggo', '08657567565', 'irur1234', 'irur1234', 'Karyawan'),
+(110, 'amar', 'bandung', '08558557453', 'amar124', 'amar124', 'Karyawan'),
+(111, 'kiki', 'bogor', '0896467565474', 'kiki1234', 'kiki123', 'Customer');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `leptop`
+-- Indexes for table `leptop`
 --
 ALTER TABLE `leptop`
   ADD PRIMARY KEY (`idleptop`),
   ADD KEY `idspesifikasi` (`idspesifikasi`);
 
 --
--- Indeks untuk tabel `spesifikasi`
+-- Indexes for table `spesifikasi`
 --
 ALTER TABLE `spesifikasi`
   ADD PRIMARY KEY (`idspesifikasi`);
 
 --
--- Indeks untuk tabel `transaksi`
+-- Indexes for table `transaksi`
 --
 ALTER TABLE `transaksi`
   ADD PRIMARY KEY (`idtra`),
@@ -173,39 +175,35 @@ ALTER TABLE `transaksi`
   ADD KEY `idlep` (`idlep`);
 
 --
--- Indeks untuk tabel `user`
+-- Indexes for table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`) USING BTREE;
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `leptop`
+-- AUTO_INCREMENT for table `leptop`
 --
 ALTER TABLE `leptop`
   MODIFY `idleptop` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=212;
-
 --
--- AUTO_INCREMENT untuk tabel `spesifikasi`
+-- AUTO_INCREMENT for table `spesifikasi`
 --
 ALTER TABLE `spesifikasi`
   MODIFY `idspesifikasi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
-
 --
--- AUTO_INCREMENT untuk tabel `transaksi`
+-- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
   MODIFY `idtra` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
 --
--- AUTO_INCREMENT untuk tabel `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
-
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
